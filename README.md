@@ -1,4 +1,4 @@
-# python-challenge: MKT - Transparency in Coverage
+# python-challenge: Transparency in Coverage
 Author: Lucas da Silva de Oliveira (lucasoliveira783@gmail.com, https://www.linkedin.com/in/lucas-sil-oliveira)
 
 
@@ -59,4 +59,5 @@ Future improvements
   * Replace prints with logs
   * Create a "time to live" policy, thus updating the database data periodically
   * Different environment variables for dev and production environments
+  * Automated tests
 
