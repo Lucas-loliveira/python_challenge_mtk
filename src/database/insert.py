@@ -1,12 +1,11 @@
 
 import sqlite3
-from DTO import TcLinkDTO, TcDataDTO
 
 class Insert:
     def __init__(self) -> None:
         self.conn = sqlite3.connect('src/database/database.db')
     
-    def insert_link_and_data(self,link:TcLinkDTO,data:TcDataDTO):
+    def insert_link_and_data(self,link,data):
         
         link_db = self.conn.execute(f"INSERT INTO TC_LINK (NAME,DOWNLOAD_LINK) \
             VALUES (?,?)",(link.name,link.download_link))
