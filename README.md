@@ -54,8 +54,9 @@ curl --request GET \
 
 Future improvements
 =====
+  * UI 
   * Use a swagger or any other documentation tool
-  * Perform multiple asynchronous requests to dowload the employer specific files
+  * Perform multiple asynchronous requests to download the employer specific files
   * Replace prints with logs
   * Create a "time to live" policy, thus updating the database data periodically
   * Different environment variables for dev and production environments
